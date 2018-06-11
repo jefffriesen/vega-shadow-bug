@@ -26,7 +26,8 @@
 
         ;; start a development http server
         :devtools
-        {:http-root "public"
+        {:after-load simple.core/render
+         :http-root "public"
          :http-port 8020
          :preloads [devtools.preload
                     day8.re-frame-10x.preload]}
