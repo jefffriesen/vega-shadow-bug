@@ -1,5 +1,7 @@
 (ns simple.barchart1
-  (:require ["react-vega-lite" :refer (createClassFromLiteSpec)]))
+  (:require 
+;    ["react-vega-lite" :refer (createClassFromLiteSpec)]
+   ))
 
 (def bar-data
   (clj->js [{:values
@@ -19,8 +21,8 @@
    :encoding {:x {:field "a", :type "ordinal"}
               :y {:field "b", :type "quantitative"}}})
 
-(defn BarChart []
-  (createClassFromLiteSpec "BarChart" bar-chart-spec))
+; (defn BarChart []
+;   (createClassFromLiteSpec "BarChart" bar-chart-spec))
 
 
 (defn example-bar-from-spec []
