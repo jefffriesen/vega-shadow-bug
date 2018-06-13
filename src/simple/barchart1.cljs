@@ -1,6 +1,6 @@
 (ns simple.barchart1
   (:require 
-;    ["react-vega-lite" :refer (createClassFromLiteSpec)]
+    ["react-vega-lite" :refer (createClassFromLiteSpec)]
    ))
 
 (def bar-data
