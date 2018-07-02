@@ -24,6 +24,9 @@
         {:closure-defines
          {"re_frame.trace.trace_enabled_QMARK_" true}}
 
+        :build-options
+        {:cache-level :off}
+
         ;; start a development http server
         :devtools
         {:after-load simple.core/render

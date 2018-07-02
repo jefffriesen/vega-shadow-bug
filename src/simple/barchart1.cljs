@@ -1,5 +1,5 @@
 (ns simple.barchart1
-  (:require 
+  (:require
     ["react-vega-lite" :refer (createClassFromLiteSpec)]
    ))
 
